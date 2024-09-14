@@ -1,0 +1,79 @@
+/* General styles */
+body {
+  width: 1000px;
+  margin: auto;
+  background-color: rgb(242, 173, 173);
+}
+
+h1 {
+  color: rgb(255, 0, 0);
+  font-family: Arial, sans-serif;
+}
+
+p {
+  font-size: 14px;
+  font-family: Tahoma, Geneva;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: rgb(242, 173, 173);
+}
+
+nav {
+  text-align: center;
+  padding: 12px;
+  background-color: rgb(255, 128, 128);
+}
+
+main {
+  color: rgb(153, 0, 0);
+  background-color: rgb(242, 173, 173);
+}
+
+footer {
+  color: #ff5959;
+  background-color: rgb(242, 173, 173);
+  font-size: 10px;
+  height: 30px;
+  text-align: center;
+}
+
+#wrapper {
+  border: 2px rgb(153, 0, 0) solid;
+}
+
+/* Hover effect for SVGs */
+svg rect:hover {
+  fill: rgb(200, 0, 50);
+}
+
+
+/* Navigation list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(153, 0, 28);
+}
+
+ul li a:hover {
+  color: rgb(200, 0, 50);
+}
+
+.selected {
+  font-weight: bold;
+  color: rgb(153, 0, 0);
+}
