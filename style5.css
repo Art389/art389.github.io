@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(171, 11, 179);
+    background-image: url(BG.jpg);
+    max-width: 1100px;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+    margin: 15px;
+    width: 320px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(142, 12, 114);
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 14px;
+    font-family: Tahoma, Geneva;
+}
+
+header {
+    background-color: rgb(145, 10, 152);
+    background-image: url(banner5.jpg);
+    height: 250px;
+}
+
+nav {
+    text-align: center;
+    padding: 12px;
+    background-color: rgb(157, 5, 174);
+}
+
+main {
+    color: rgb(107, 13, 99);
+    background-color: rgb(165, 32, 217);
+}
+
+footer {
+    color: #FFF;
+    background-color: rgb(143, 143, 143); /* This overrides the previous bg color */
+    font-size: 10px;
+    height: 30px;
+    text-align: center;
+}
+
+/* IDs */
+#wrapper {
+    border: 2px rgb(184, 6, 163) solid;
+}
+
+/* Classes */
+.important {
+    color: #C00; /* darker red */
+}
+
+/* Navigation styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(103, 15, 97);
+}
+
+ul li a:hover {
+    color: #000;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+/* Specific styles for elements in the body */
+h1.page-title {
+    color: rgb(107, 7, 126);
+    font-size: 52px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(108, 21, 130);
+    font-size: 32px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* HR style */
+hr {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(115, 10, 91);
+}
+
+/* Footer styles */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a#Youtube {
+    color: red;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
