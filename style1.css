@@ -1,79 +1,219 @@
-/* General styles */
+/* General Styles */
 body {
-  width: 1000px;
-  margin: auto;
-  background-color: rgb(242, 173, 173);
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(179, 200, 253);
+    background-image: url(BG.jpg);
 }
 
 h1 {
-  color: rgb(255, 0, 0);
-  font-family: Arial, sans-serif;
+    color: blue;
+    font-family: Arial, sans-serif;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Text shadow */
+    text-align:center;
 }
 
 p {
-  font-size: 14px;
-  font-family: Tahoma, Geneva;
+    font-size: 14px;
+    font-family: Tahoma, Geneva;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 header {
-  background-color: rgb(242, 173, 173);
+    background-color: rgb(180, 218, 255);
+    background-image: url(banner.jpg);
+    height: 250px;
 }
 
 nav {
-  text-align: center;
-  padding: 12px;
-  background-color: rgb(255, 128, 128);
+    text-align: center;
+    padding: 12px;
+    background-color: #CCF;
 }
 
 main {
-  color: rgb(153, 0, 0);
-  background-color: rgb(242, 173, 173);
+    color: #009;
+    background-color: rgb(179, 200, 253);
 }
 
 footer {
-  color: #ff5959;
-  background-color: rgb(242, 173, 173);
-  font-size: 10px;
-  height: 30px;
-  text-align: center;
+    color: #FFF;
+    background-color: rgb(143, 143, 143);
+    font-size: 10px;
+    height: 30px;
+    text-align: center;
 }
 
+/* IDs */
 #wrapper {
-  border: 2px rgb(153, 0, 0) solid;
+    border: 2px #009 solid;
 }
 
-/* Hover effect for SVGs */
-svg rect:hover {
-  fill: rgb(200, 0, 50);
+/* Classes */
+.important {
+    color: #C00; /* darker red */
 }
 
-
-/* Navigation list */
-ul {
-  list-style-type: none;
-  padding: 0;
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgb(179, 200, 253);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-ul li {
-  display: inline;
-  margin-right: 15px;
+.radio-group,
+.checkbox-group {
+    display: flex;
+    justify-content: flex-start;
 }
 
-ul li a {
-  text-decoration: none;
-  color: rgb(153, 0, 28);
+.radio-group input,
+.checkbox-group input {
+    margin-right: 10px;
 }
 
-ul li a:hover {
-  color: rgb(200, 0, 50);
+.button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.required {
+    color: red;
 }
 
 .selected {
-  font-weight: bold;
-  color: rgb(153, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    transition: background-color 0.5s ease;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Box shadow */
+}
+
+.box:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+/* Navigation Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(51, 100, 198);
+}
+
+ul li a:hover {
+    color: #1c0787;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table td {
+    padding: 10px;
+}
+
+/* Form Styles */
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button[type="reset"] {
+    background-color: #6c757d;
+}
+
+button[type="reset"]:hover {
+    background-color: #5a6268;
+}
+
+/* Specific Styles for Body Elements */
+h1.page-title {
+    color: rgb(21, 130, 239);
+    font-size: 52px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(42, 117, 174);
+    font-size: 32px;
+    font-family: Helvetica;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
+
+h3 {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
+
+/* HR Style */
+hr {
+    width: 100%;
+    height: 5px;
+    background-color: #039;
+}
+
+/* Footer Styles */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a#Youtube {
+    color: red;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
