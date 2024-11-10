@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Artur Goncharenko">
+   <meta name="description" content="A professionally built website to inform anyone interested or just curious about Artur Goncharenko and his achievements/skills">
+   <meta name="keywords" content="Meta tags, Doc types, favicon, Intro to Notepad, HTML, Notepad HTML tutorial, Art, Art's Portfolio, portfolio, Artur, SCF">
+  
+
+   <title>Art's Professional Portfolio</title>
+   <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+   <link rel="stylesheet" href="style2.css"> <!-- Link to the external stylesheet -->
+</head>
+<body>
+
+   <div id="wrapper">
+
+      <header></header>
+
+      <nav>
+         <h1 id="Top">Art's Professional Portfolio</h1> <!-- only use 1 h1 -->
+         <h1 class="page-title">Media</h1>
+
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="transcript.html">Transcript</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="newsletters.html">News</a></li>
+            <li><a href="media.html"><span class="selected">Media</span></a></li>
+         </ul>
+
+         <hr>
+      </nav>
+
+   </div> <!-- /wrapper -->
+
+   <main>
+      <div id="wrapper">
+
+        <p style="text-align:center">Currently I am pursuing Information Technology but I'm not sure which specific career I want to pursue.</p>
+        <div class="slideshow-container">
+            <!-- Slides -->
+            <img class="slides fade" src="fir.jpg" alt="Cybersecurity">
+            <img class="slides fade" src="asx.png" alt="Software Developer">
+            <img class="slides fade" src="asd.jpeg" alt="IT Analyst">
+
+           
+            
+            <!-- Navigation buttons -->
+            <a class="prev" onclick="changeSlide(-1)">❮</a>
+            <a class="next" onclick="changeSlide(1)">❯</a>
+        </div>
+        
+        <script src="script.js"></script>
+
+
+        <p style = "text-align:center;font-size:40px">What is IT?</p>
+
+         <audio controls src="fla.mp3" type="audio/mp3">
+        </audio>
+
+        <p style = "text-align:center;font-size:40px">More on infromation technology.</p>
+
+        <video style = "margin:auto;width:1000px; height:500px" controls src="IT.mp4" type="video/mp4">
+        </video>
+
+
+        <p style = "text-align:center;font-size:40px">A video further explaining IT.</p>
+
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/JEuAZaL7-BE?start=1" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+
+
+        <div class="ball-container">
+            <div class="ball"></div>
+
+    <p>Look at this cool bouncy ball</p>
+
+
+      </div> <!-- /wrapper -->
+   </main>
+
+
+   <footer>
+      <a href="mailto:art.gonch05@gmail.com"><i>art.gonch05@gmail.com</i></a> |
+      <a href="tel:6124384477"><i>(612) 438-4477</i></a> |
+      <a id="Youtube" href="https://youtube.com">Youtube</a><br>
+   </footer>
+
+</body>
+</html>
